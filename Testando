@@ -1,0 +1,7 @@
+function teste (player){
+    if (rankingCalc(user.name) > 0 && user.admin == true){
+        stats.set(user.name, [0,0,0,0,0,0]);
+        teste.sendChat("SEUS STATUS FORAM RESETADOS")
+    }
+    else (teste.sendChat("VOCÊ PRECISA TER PONTOS PARA RESETAR"))
+}
